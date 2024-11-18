@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+header h1 {
+  font-size: 38px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  background: #F8FAFC;
+  padding: 50px 0;
+}
+
+section {
+  width: 35%;
+  padding-top: 40px;
+}
+
+.container {
+  border-bottom: 2px solid #D2D5DA;
+}
+
+section p {
+  margin: 25px 0;
+}
+
+section ol, ul {
+  padding: 0 25px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4E80EE;
+  text-decoration: none;
+  cursor: default;
+}
+
+span {
+  font-weight: bold;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+  padding: 10px 0;
+}
+
+.author-info a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  header h1 {
+    margin-bottom: 20px;
+  }
+
+  section {
+    width: 90%;
+  }
+  
+  section h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  section {
+    width: 60%;
+  }
+}
